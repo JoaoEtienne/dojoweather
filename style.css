@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#top-container {
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #9FC5F8;
+}
+
+nav{
+    width: 700px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /*font-size: large;*/
+}
+
+h1 {
+    margin-right: 50px;
+    font-size: xx-large;
+}
+
+#top-container-2 {
+    height: 70px;
+    margin: 0 auto;
+}
+
+#location {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 0px 10px 0px;
+    justify-content: space-between;
+    align-items: baseline;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+#sanjose {
+    margin-right: 400px;
+}
+
+#row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#body-container {
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.col {
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 270px;
+    background-color: #eee;
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.bottom-col {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 10px 0px 10px;
+}
+
+.templow {
+    color: #2B78E4;
+}
+
+.temphigh {
+    color: #CF2A27;
+}
+
+#cookie-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+}
+
+#cookiebtn {
+    display: flex;
+    border: solid #333;
+    justify-content: space-between;
+    background-color: #eee;
+}
+
+#cookietime {
+    padding-top: 20px;
+}
+
+button {
+    height: 30px;
+    width: 70px;
+    margin: 45px 20px 0px 20px;
+    background-color: #9FC5F8;
+    box-shadow: 2px 2px 2px black;
+}

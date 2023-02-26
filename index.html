@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="top-container">
+        <nav>
+            <h1>DojoWeather</h1>
+            <h3 onclick="alert('Loading weather report...')">Burbank</h3>
+            <h3 onclick="alert('Loading weather report...')">Chicago</h3>
+            <h3 onclick="alert('Loading weather report...')">Dallas</h3>
+        </nav>
+    </div>
+    <div id="top-container-2">
+        <div id="location">
+            <h2 id="sanjose"> San Jose</h2>
+            <p>show temperature in</p>
+            <select name="degree" onchange="convert()">
+                <option id="celcius">*C</option>
+                <option id="fahrenheit">*F</option>
+            </select>
+        </div> 
+    </div>
+    <div id="body-container">
+        <div id="row">
+            <div class="col">
+                <h2>Today</h2>
+                <img src="./some_rain.png" alt="rainy cloud">
+                <p>some rain</p>
+                <div class="bottom-col">
+                    <h2 id="tdy" class="temphigh">24*</h2>
+                    <h2 id="tdy2" class="templow">18*</h2>
+                </div>
+            </div>
+            <div class="col">
+                <h2>Tomorrow</h2>
+                <img src="./some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="bottom-col">
+                    <h2 id="tmrw" class="temphigh">27*</h2>
+                    <h2 id="tmrw2" class="templow">19*</h2>
+                </div>
+            </div>
+            <div class="col">
+                <h2>Friday</h2>
+                <img src="./some_clouds.png" alt="cloud">
+                <p>some clouds</p>
+                <div class="bottom-col">
+                    <h2 id="fri" class="temphigh">21*</h2>
+                    <h2 id="fri2" class="templow">16*</h2>
+                </div>  
+            </div>
+            <div class="col">
+                <h2>Saturday</h2>
+                <img src="./some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="bottom-col">
+                    <h2 id="sat" class="temphigh">26*</h2>
+                    <h2 id="sat2" class="templow">21*</h2>
+                </div>
+            </div>
+        </div>    
+        <div id="cookie-container">
+            <div id="cookiebtn">
+                <div>
+                    <img src="./cookie.png" alt="cookie">
+                </div>
+                <div id="cookietime">
+                    <h4>Stop! Cookie Time</h4>
+                    <p> we use cookies (sadly not the edile ones) to personalize content and ads, to provide social dedia features and to analyze our traffic. <a href="#">Read more</a></p>
+                </div>
+                <div>
+                    <button  onclick="hide()">I Accept</button>
+                </div>
+            </div>   
+        </div>  
+    </div>
+</body>
+</html>
